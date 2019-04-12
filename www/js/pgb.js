@@ -20,3 +20,13 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function newButton() {
+
+	info =  'Hi, I am personal data' + '\n' +
+			'=====' + '\n' +
+			'Personal data';
+
+	navigator.notification.alert(info);
+	
+}

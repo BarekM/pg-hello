@@ -6,26 +6,14 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
-function deviceInfo() {
+function bussinessCard() {
 
-	info =  'Hi, I am your smartphone :-)' + '\n' +
+	info =  'Hi, I am your bussiness card :-)' + '\n' +
 			'=====' + '\n' +
-			'Device Name    : '     + device.name     + '\n' + 
-			'Device Cordova : '  + device.cordova + '\n' + 
-			'Device Platform: ' + device.platform + '\n' + 
-			'Device UUID    : '     + device.uuid     + '\n' + 
-			'Device Model   : '    + device.model     + '\n' + 
-			'Device Version : '  + device.version  + '\n';
-
-	navigator.notification.alert(info);
-	
-}
-
-function newButton() {
-
-	info =  'Hi, I am personal data' + '\n' +
-			'=====' + '\n' +
-			'Personal data';
+			'Name    : Jan Kowalski' + '\n' + 
+			'Surname : Kowalski'  + device.cordova + '\n' + 
+			'Group: 1211' + device.platform + '\n' + 
+			'City    : Krakow'     + device.uuid     + '\n';
 
 	navigator.notification.alert(info);
 	
